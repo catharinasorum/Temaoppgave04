@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* Styrer bildet av Tina i bakgrunnen*/
+main {
+    background-image: url(../files/tina-test.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 100vh;
+    width: 100vw;
+    margin-left: -100px;
+}
+
+/* Komponenten som endres */
+.pages {
+    margin-top: 3rem;
+    margin-right: 7rem;
+    padding: 1rem;
+    background-color: #1c110bd0;
+    height: 70vh;
+    color: white;
+    float: right;
+    width: 60vw;
+    
+}
+
+/* På de komponentene som trenger litt mer plass på siden mellom linjene */
+.space {
+    line-height: 2rem;
+}
+
+.space p {
+    margin-top: 1rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: 	#ccb596;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: 	white;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* En grid med de ansatte */
+.employees {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    height: 50vh;
+    overflow: scroll;
+}
+
+.employee {
+    margin: 1rem;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.employee img {
+    max-width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.employee h3 {
+    text-align: center;
+}
+
+.employee p {
+    line-height: 0.4rem;
+}
+
+/* En grid med det salongen kan tilby */
+.treatment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-top: 1rem;
+    overflow: scroll;
+}
+
+.contact {
+    margin-top: 1rem
+}
+
+/* Grid over bookingen */
+.bookings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    overflow: scroll;
+    height: 50vh;
+}
+
+.bookings input, select {
+    width: 30vw;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.smallText {
+    font-size: small;
+}
+
+.bookings button {
+    padding: 1rem;
+}

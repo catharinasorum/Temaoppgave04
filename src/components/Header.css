@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/vgy0ntq.css");
+
+.header {
+    background-color: #1c110bd0;
+    padding: 1rem;
+}
+
+.header h1 {
+    text-align: center;
+    font-family: drunk-cowboy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+nav {
+    color: #ccb596;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+nav a {
+    color: #ccb596;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: 700;
+}
