@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Temaoppgave04/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Temaoppgave04/static/js/main.fe049313.chunk.js",
+    "main.js.map": "/Temaoppgave04/static/js/main.fe049313.chunk.js.map",
+    "runtime-main.js": "/Temaoppgave04/static/js/runtime-main.592d310c.js",
+    "runtime-main.js.map": "/Temaoppgave04/static/js/runtime-main.592d310c.js.map",
+    "static/js/2.c90a5a83.chunk.js": "/Temaoppgave04/static/js/2.c90a5a83.chunk.js",
+    "static/js/2.c90a5a83.chunk.js.map": "/Temaoppgave04/static/js/2.c90a5a83.chunk.js.map",
+    "index.html": "/Temaoppgave04/index.html",
+    "precache-manifest.303cb84da83a16ac14f606dab7906966.js": "/Temaoppgave04/precache-manifest.303cb84da83a16ac14f606dab7906966.js",
+    "service-worker.js": "/Temaoppgave04/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/Temaoppgave04/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/Temaoppgave04/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.592d310c.js",
+    "static/js/2.c90a5a83.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.fe049313.chunk.js"
+  ]
+}
